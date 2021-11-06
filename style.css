@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 45.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #680268;
+  display: flex;
+  font-size: 1em;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+}
+.comedown {
+  display: flex;
+  align-items: center;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.timer {
+  padding: 2em;
+  font-size: 1.2em;
+}
+
+span {
+  margin-left: 1.2em;
+  font-size: 2.5em;
+}
+.alinment {
+  display: flex;
+  align-items: center;
+}
+small {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #f5c74a;
+}
+.size {
+  font-size: 4.3em;
+}
+
+.heading-text {
+  color: #fff;
+  line-height: 2.3em;
+  padding-left: 4.5em;
+  margin-top: 9px;
+  font-size: 1.5em;
+}
+.heading-text h2 {
+  text-align: center;
+}
+
+.heading-text h2 span {
+  color: #ffcc01;
+
+  font-size: 1em;
+}
+
+.btn {
+  padding: 0.5em 2.5em;
+  background: #fff;
+  font-size: 1.8em;
+  text-decoration: none;
+  border-radius: 16px;
+  color: #000;
+  margin-left: 10px;
+}
+.header-img img {
+  padding: 0.7rem;
+  margin-top: 0.5em;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.chrismus-pic img {
+  padding-top: 6px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1524px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 1240px) {
+  html {
+    font-size: 60%;
+  }
+  .container {
+    height: 78px;
+  }
+  .header-img img {
+    height: 60px;
+  }
+  .chrismus-pic img {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 979px) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    height: 57px;
+  }
+  .chrismus-pic img {
+    height: 60px;
+  }
+  .header-img img {
+    height: 56px;
+  }
+}
+@media screen and (max-width: 790px) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    height: 38px;
+  }
+  .header-img img {
+    height: 40px;
+  }
+  .chrismus-pic img {
+    height: 40px;
+  }
+}
+@media screen and (max-width: 671px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media screen and (max-width: 587px) {
+  html {
+    font-size: 30%;
+  }
+  .container {
+    height: 30px;
+  }
+  .header-img img {
+    height: 25px;
+  }
+  .chrismus-pic img {
+    height: 33px;
+  }
+}
+@media screen and (max-width: 467px) {
+  html {
+    font-size: 20%;
+  }
+}
