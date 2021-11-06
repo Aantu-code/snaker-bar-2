@@ -46,13 +46,6 @@ small {
   font-size: 4.3em;
 }
 
-/* .heading-text {
-  color: #fff;
-  line-height: 2.3em;
-  padding-left: 4.5em;
-  margin-top: 9px;
-  font-size: 1.5em;
-} */
 .heading-text {
   color: #fff;
   line-height: 2.3em;
@@ -197,6 +190,23 @@ small {
     justify-content: center;
   }
   .container {
-    height: 75px;
+    height: 50px;
+  }
+  .timer:last-child {
+    display: none;
+  }
+  .alinment .none {
+    display: none;
+  }
+  .heading-text {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 319px) {
+  html {
+    font-size: 28%;
+  }
+  .container {
+    height: 40px;
   }
 }
