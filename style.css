@@ -121,39 +121,42 @@ small {
 }
 @media screen and (max-width: 790px) {
   html {
-    font-size: 50%;
+    font-size: 40%;
   }
   .container {
-    height: 38px;
+    height: 50px;
   }
   .header-img img {
     height: 40px;
   }
   .chrismus-pic img {
-    height: 40px;
+    height: 50px;
   }
 }
 @media screen and (max-width: 671px) {
   html {
-    font-size: 40%;
+    font-size: 60%;
+  }
+  .header-img {
+    display: none;
+  }
+  .chrismus-pic img {
+    display: none;
+  }
+  .container {
+    height: 60px;
   }
 }
 @media screen and (max-width: 587px) {
   html {
-    font-size: 30%;
+    font-size: 50%;
   }
   .container {
-    height: 30px;
-  }
-  .header-img img {
-    height: 25px;
-  }
-  .chrismus-pic img {
-    height: 33px;
+    height: 50px;
   }
 }
 @media screen and (max-width: 467px) {
   html {
-    font-size: 20%;
+    font-size: 35%;
   }
 }
