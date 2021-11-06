@@ -46,12 +46,19 @@ small {
   font-size: 4.3em;
 }
 
-.heading-text {
+/* .heading-text {
   color: #fff;
   line-height: 2.3em;
   padding-left: 4.5em;
   margin-top: 9px;
   font-size: 1.5em;
+} */
+.heading-text {
+  color: #fff;
+  line-height: 2.3em;
+  padding-left: 4.5em;
+  margin-top: 9px;
+  font-size: 2em;
 }
 .heading-text h2 {
   text-align: center;
@@ -85,38 +92,63 @@ small {
   padding-top: 6px;
   overflow: hidden;
 }
-
+@media screen and (max-width: 1620px) {
+  .heading-text {
+    font-size: 1.5em;
+  }
+}
 @media screen and (max-width: 1524px) {
+  html {
+    font-size: 80%;
+  }
+  .header-img img {
+    height: 85px;
+  }
+}
+@media screen and (max-width: 1302px) {
   html {
     font-size: 70%;
   }
-}
-@media screen and (max-width: 1240px) {
-  html {
-    font-size: 60%;
+  .header-img img {
+    height: 50px;
+  }
+  .heading-text {
+    font-size: 1.8em;
+  }
+  .chrismus-pic img {
+    height: 60px;
   }
   .container {
-    height: 78px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 1019px) {
+  html {
+    font-size: 50%;
+  }
+  .chrismus-pic img {
+    height: 60px;
+  }
+  .container {
+    height: 60px;
   }
   .header-img img {
     height: 60px;
   }
-  .chrismus-pic img {
-    height: 80px;
-  }
 }
-@media screen and (max-width: 979px) {
+
+@media screen and (max-width: 859px) {
   html {
     font-size: 50%;
   }
   .container {
-    height: 57px;
+    height: 50px;
   }
   .chrismus-pic img {
-    height: 60px;
+    height: 50px;
   }
   .header-img img {
-    height: 56px;
+    height: 50px;
   }
 }
 @media screen and (max-width: 790px) {
@@ -155,8 +187,16 @@ small {
     height: 50px;
   }
 }
-@media screen and (max-width: 467px) {
+@media screen and (max-width: 490px) {
   html {
-    font-size: 30%;
+    font-size: 40%;
+  }
+  .wrapper {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container {
+    height: 75px;
   }
 }
