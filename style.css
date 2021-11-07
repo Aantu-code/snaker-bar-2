@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
 }
 
-.container {
+.main-container {
   background-color: #680268;
   display: flex;
   font-size: 1em;
@@ -17,7 +17,8 @@ body {
   height: 100px;
   justify-content: space-between;
 }
-.comedown {
+
+.countdown {
   display: flex;
   align-items: center;
   line-height: 1.2;
@@ -33,15 +34,18 @@ span {
   margin-left: 1.2em;
   font-size: 2.5em;
 }
+
 .alinment {
   display: flex;
   align-items: center;
 }
-small {
+
+p {
   font-size: 1.5em;
   font-weight: 400;
   color: #f5c74a;
 }
+
 .size {
   font-size: 4.3em;
 }
@@ -50,9 +54,9 @@ small {
   color: #fff;
   line-height: 2.3em;
   padding-left: 4.5em;
-  margin-top: 9px;
   font-size: 2em;
 }
+
 .heading-text h2 {
   text-align: center;
 }
@@ -72,11 +76,13 @@ small {
   color: #000;
   margin-left: 10px;
 }
+
 .header-img img {
   padding: 0.7rem;
   margin-top: 0.5em;
 }
-.wrapper {
+
+.inner-wrapper {
   display: flex;
   align-items: center;
 }
@@ -85,11 +91,13 @@ small {
   padding-top: 6px;
   overflow: hidden;
 }
+
 @media screen and (max-width: 1620px) {
   .heading-text {
     font-size: 1.5em;
   }
 }
+
 @media screen and (max-width: 1524px) {
   html {
     font-size: 80%;
@@ -98,6 +106,7 @@ small {
     height: 85px;
   }
 }
+
 @media screen and (max-width: 1302px) {
   html {
     font-size: 70%;
@@ -108,24 +117,20 @@ small {
   .heading-text {
     font-size: 1.8em;
   }
+  .main-container,
   .chrismus-pic img {
     height: 60px;
   }
-  .container {
-    height: 60px;
-  }
 }
+
 @media screen and (max-width: 1019px) {
   html {
     font-size: 50%;
   }
-  .chrismus-pic img {
+  .chrismus-pic img .header-img img {
     height: 60px;
   }
-  .container {
-    height: 60px;
-  }
-  .header-img img {
+  .main-container {
     height: 60px;
   }
 }
@@ -134,30 +139,28 @@ small {
   html {
     font-size: 50%;
   }
-  .container {
+  .main-container {
     height: 50px;
   }
-  .chrismus-pic img {
-    height: 50px;
-  }
+  .chrismus-pic img,
   .header-img img {
     height: 50px;
   }
 }
+
 @media screen and (max-width: 790px) {
   html {
     font-size: 40%;
   }
-  .container {
+  .main-container,
+  .chrismus-pic img {
     height: 50px;
   }
   .header-img img {
     height: 40px;
   }
-  .chrismus-pic img {
-    height: 50px;
-  }
 }
+
 @media screen and (max-width: 671px) {
   html {
     font-size: 60%;
@@ -168,28 +171,30 @@ small {
   .chrismus-pic img {
     display: none;
   }
-  .container {
+  .main-container {
     height: 60px;
   }
 }
+
 @media screen and (max-width: 587px) {
   html {
     font-size: 50%;
   }
-  .container {
+  .main-container {
     height: 50px;
   }
 }
+
 @media screen and (max-width: 490px) {
   html {
     font-size: 40%;
   }
-  .wrapper {
+  .inner-wrapper {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .container {
+  .main-container {
     height: 50px;
   }
   .timer:last-child {
@@ -202,11 +207,12 @@ small {
     padding-left: 0;
   }
 }
+
 @media screen and (max-width: 319px) {
   html {
     font-size: 28%;
   }
-  .container {
+  .main-container {
     height: 40px;
   }
 }
